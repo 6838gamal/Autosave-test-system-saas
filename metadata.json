@@ -1,0 +1,6 @@
+{
+  "name": "AutoSave test system",
+  "description": "نظام ذكي متكامل بالخلفية لحفظ جهات الاتصال غير المسجلة تلقائيًا وبناء قاعدة بيانات العملاء للـ CRM",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,129 @@
+<resources>
+    <!-- App Main Name -->
+    <string name="app_name">AutoSave test system</string>
+
+    <!-- Side Drawer & Core Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_contacts">جهات الاتصال المحفوظة</string>
+    <string name="nav_logs">السجل والعمليات</string>
+    <string name="nav_export">تصدير البيانات (CRM)</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_permissions">إدارة الصلاحيات</string>
+    <string name="nav_developer">التواصل مع المطور</string>
+    <string name="nav_feedback">إرسال ملاحظات</string>
+    <string name="nav_privacy">سياسة الخصوصية</string>
+    <string name="nav_version">تفاصيل الإصدار</string>
+
+    <!-- Drawer Header -->
+    <string name="drawer_subtitle">نظام ذكي متكامل بالخلفية لبناء الـ CRM</string>
+
+    <!-- Dashboard Screens -->
+    <string name="dashboard_stats">الإحصائيات العامة</string>
+    <string name="total_saved_contacts">إجمالي جهات الاتصال المحفوظة</string>
+    <string name="last_saved_number">آخر رقم تم حفظه</string>
+    <string name="service_status">حالة خدمة الخلفية</string>
+    <string name="service_status_active">مفعّلة وتعمل بنشاط</string>
+    <string name="service_status_inactive">متوقفة أو معطلة</string>
+    <string name="service_status_toggle_on">تشغيل الخدمة</string>
+    <string name="service_status_toggle_off">إيقاف الخدمة</string>
+
+    <!-- Permission Status Metrics -->
+    <string name="permission_status">حالة الصلاحيات والوصول</string>
+    <string name="permission_granted">ممنوحة</string>
+    <string name="permission_denied">غير ممنوحة</string>
+    <string name="perm_sms">صلاحية استقبال وقراءة الـ SMS</string>
+    <string name="perm_calls">صلاحية رصد وقراءة المكالمات (Call Log)</string>
+    <string name="perm_contacts">صلاحية قراءة وكتابة جهات الاتصال</string>
+    <string name="perm_notifications_listener">صلاحية الوصول للإشعارات (WhatsApp)</string>
+    <string name="perm_accessibility">صلاحية خدمة إمكانية الوصول</string>
+    <string name="perm_battery">تجاهل تحسين البطارية (تعمل بالخلفية)</string>
+    <string name="perm_post_notifications">صلاحية إشعارات النظام (البث)</string>
+
+    <!-- Buttons -->
+    <string name="btn_grant">منح الصلاحية</string>
+    <string name="btn_configure">إعداد الخدمة</string>
+    <string name="btn_search">بحث...</string>
+    <string name="btn_delete_all">حذف الكل</string>
+    <string name="btn_save">حفظ التغييرات</string>
+    <string name="btn_cancel">إلغاء</string>
+    <string name="btn_export_csv">تصدير بصيغة CSV</string>
+    <string name="btn_export_xlsx">تصدير بصيغة Excel (XLSX)</string>
+    <string name="btn_okay">حسناً</string>
+    <string name="btn_retry">إعادة المحاولة</string>
+
+    <!-- Headers & Lists -->
+    <string name="empty_contacts">لا توجد جهات اتصال محفوظة تلقائياً بعد.</string>
+    <string name="empty_logs">سجل العمليات فارغ تماماً حالياً.</string>
+    <string name="contact_name">الاسم</string>
+    <string name="contact_phone">رقم الهاتف</string>
+    <string name="contact_source">مصدر الالتقاط</string>
+    <string name="contact_date">تاريخ الحفظ</string>
+    <string name="contact_last_active">آخر نشاط</string>
+    <string name="contact_interactions">عدد مرات التواصل</string>
+
+    <!-- Capture Sources -->
+    <string name="source_incoming_call">مكالمة واردة</string>
+    <string name="source_outgoing_call">مكالمة صادرة</string>
+    <string name="source_sms">رسالة قصيرة SMS</string>
+    <string name="source_whatsapp">إشعار WhatsApp</string>
+    <string name="source_accessibility">خدمة إمكانية الوصول (WhatsApp/Screen)</string>
+
+    <!-- Logs and Operations -->
+    <string name="log_op_success">تم الحفظ بنجاح</string>
+    <string name="log_op_duplicate">تحديث النشاط (رقم مسجل مسبقاً)</string>
+    <string name="log_op_already_saved">تجاهل الرقم (موجود بجهات اتصال الهاتف)</string>
+    <string name="log_op_error">فشل الحفظ (خطأ بالنظام)</string>
+    <string name="log_title">سجلات العمليات الأمنية والتلقائية</string>
+    <string name="log_search_hint">البحث برقم الهاتف أو الاسم...</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">إعدادات النظام الذكي</string>
+    <string name="setting_prefix_title">الاسم البادئ للعملاء</string>
+    <string name="setting_prefix_summary">البادئة المستخدمة لتسمية العملاء تلقائياً (مثال: عميل)</string>
+    <string name="setting_counter_title">العداد التلقائي الحالي</string>
+    <string name="setting_counter_summary">الرقم التسلسلي التالي للعميل الجديد</string>
+    <string name="setting_whatsapp_active">مراقبة WhatsApp</string>
+    <string name="setting_whatsapp_summary">تفعيل رصد وحفظ أرقام WhatsApp تلقائياً عبر الإشعارات</string>
+    <string name="setting_sms_active">مراقبة الرسائل القصيرة</string>
+    <string name="setting_sms_summary">تفعيل رصد وحفظ الأرسال من أرقام SMS مجهولة</string>
+    <string name="setting_calls_active">مراقبة المكالمات الهاتفية</string>
+    <string name="setting_calls_summary">تفعيل رصد وحفظ المكالمات غير المسجلة</string>
+
+    <!-- Dialogs & Dialog Text -->
+    <string name="dialog_edit_title">تعديل الاسم المستهدف</string>
+    <string name="dialog_delete_confirm">هل أنت متأكد من رغبتك في حذف هذا السجل وبينات العميل؟ لن يؤثر هذا على جهات اتصال الجهاز.</string>
+    <string name="dialog_delete_title">حذف جهة اتصال</string>
+
+    <!-- Permissions Explanations Screen -->
+    <string name="permissions_desc">يحتاج نظام AutoSave إلى مجموعة صلاحيات هامة ليعمل بكفاءة مطلقة بالخلفية دون انقطاع. يرجى توفير الصلاحيات أدناه لضمان رصد وتأمين بيانات عملائك التلقائية.</string>
+    <string name="permission_battery_desc">تجاهل تحسين البطارية يسمح للخدمة بالبقاء نشطة دوماً بالخلفية لعدم إيقاف رصد الاتصالات من قبل نظام أندرويد.</string>
+    <string name="permission_notif_listener_desc">الوصول للإشعارات إلزامي لقراءة إشعارات الواتساب الملتقطة وترشيح الأرقام المجهولة لحفظها.</string>
+    <string name="permission_accessibility_desc">خدمة إمكانية الوصول تقوم بدعم النظام في الحالات الصعبة وتضمن دقة التقاط مجهولي الهوية بواتساب.</string>
+
+    <!-- Export Screen -->
+    <string name="export_desc">قم بتصدير قاعدة بيانات عملائك المسجلة تلقائياً بصيغ احترافية متوافقة مع أنظمة الـ CRM الرائدة كـ Excel أو CSV لبدء حملاتك التسويقية بسهولة.</string>
+    <string name="export_saved">تم تصدير الملف بنجاح وحفظه في مجلد التنزيلات (Downloads): %1$s</string>
+    <string name="export_error">حدث خطأ أثناء محاولة تصدير الملف.</string>
+
+    <!-- Developer Screen & Info -->
+    <string name="dev_title">تفاصيل المطور وسند الدعم</string>
+    <string name="dev_desc">تم تطوير هذا النظام بأعلى معايير الأمان والكفاءة لتوفير بناء أتمتة CRM حقيقي وبسيط لقطاع الأعمال الصغيرة والناشئة.</string>
+    <string name="dev_contact_btn">تواصل عبر البريد الإلكتروني</string>
+    <string name="dev_feedback_desc">رأيك يهمنا، أرسل لنا اقتراحاتك لتطوير النظام الذكي وسنزيد من تزويد القدرات الفنية.</string>
+    <string name="privacy_policy_title">سياسة الخصوصية وأمان البيانات</string>
+    <string name="privacy_policy_text">جميع عمليات الفحص والتسجيل والحفظ تتم بالكامل محلياً وبشكل آمن داخل هافتك الشخصي. التطبيق لا يشارك أي بيانات لأي جهة خارجية أو خوادم سحابية، ونلتزم بالحفاظ المطلق على خصوصية اتصالاتك وعملائك بالكامل.</string>
+    <string name="app_version_label">إصدار التطبيق الحالي</string>
+    <string name="app_version_value">1.0.0 (Native Release)</string>
+
+    <!-- Notification Service -->
+    <string name="notif_service_title">AutoSave يعمل بالخلفية</string>
+    <string name="notif_service_desc">النظام يراقب المكالمات والرسائل والواتساب لحفظ الأرقام الجديدة تلقائياً...</string>
+    <string name="notif_channel_name">خدمة الخلفية المستمرة</string>
+    <string name="notif_channel_desc">إشعارات تتبع تشغيل خدمة AutoSave بالخلفية لضمان الاستقرار</string>
+    <string name="notif_save_success_title">تم حفظ جهة اتصال جديدة تلقائياً!</string>
+    <string name="notif_save_success_desc">تم إضافة \"%1$s\" (%2$s) بسبب نشاط عبر %3$s</string>
+
+    <!-- General Status -->
+    <string name="no_data">لا توجد بيانات حالياً</string>
+    <string name="search_no_results">لم نجد أي نتائج تطابق البحث</string>
+</resources>
